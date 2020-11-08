@@ -1,0 +1,44 @@
+body{
+   -webkit-text-fill-color:white;
+    
+background-image: url("tech solution.jpg");
+
+}
+
+/*.bg{
+    position :absolute;
+    max-width: 100%;
+    opacity: 0.5;
+}*/
+
+
+
+.wrapper{
+    width:400px;
+    height:420px;
+    top:50%;
+    left:50%;
+
+  padding:60px 30px;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow:8px px 50px #000000;
+
+}
+
+
+.wrapper input[type=text], .wrapper input[type=email], .wrapper input[type =password]
+{
+    border:white;
+    border-bottom: 1px white;
+    background: transparent;
+    outline: white;
+    
+}
+
+
+.wrapper input[type =submit]{
+   background-color:#6072fb;
+   opacity:0.9;
+}
